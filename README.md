@@ -1,7 +1,5 @@
 # spring-boot-oauth2-jwt-swagger-ui
-Spring Boot , OAuth 2 , JWT (Json Web Token) and Swagger UI
-
-# Spring Boot + OAuth 2.0 + JWT + Swagger-UI 2?
+Spring boot backend application which supports User Authentication OAuth2. OAuth is a delegated authorization framework for REST/APIs. It enables apps to obtain limited access (scopes) to a user's data without giving away a user's password. It decouples authentication from authorization and supports multiple use cases addressing different device capabilities. Swagger is used to provide testing Interface with documentation support for API 
 
 ## How to start ?
 
