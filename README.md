@@ -4,17 +4,18 @@ OAuth is a delegated authorization framework for REST/APIs. It enables apps to o
 
 ## How to start ?
 
+Maven
 ```
 $ mvn spring-boot:run
 ```
-As start up command
+Linux start up
 ```
 $ java -jar -server -XX:+UseG1GC -Xmx7g -Xms5g -Dspring.profiles.active=local -DNAME=OAUTH2-REST springboot-oauth2-res-1.0.0-SNAPSHOT.jar 2>> /dev/null >> /dev/null
 ```
 
 
 ## Swagger-UI
-* After starting the application Click on [Swagger-home](http://localhost:1977/api/swagger-ui.html)
+* After starting the application Click on [Swagger-home](http://localhost:8080/api/swagger-ui.html)
 
 
 ## User Data
