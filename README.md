@@ -1,5 +1,6 @@
-# spring-boot-oauth2-jwt-swagger-ui
-Spring boot backend application which supports User Authentication OAuth2. OAuth is a delegated authorization framework for REST/APIs. It enables apps to obtain limited access (scopes) to a user's data without giving away a user's password. It decouples authentication from authorization and supports multiple use cases addressing different device capabilities. Swagger is used to provide testing Interface with documentation support for API 
+# Spring Boot Rest API secured with Oauth2 scheme
+Spring boot backend application which supports User Authentication OAuth2. 
+OAuth is a delegated authorization framework for REST/APIs. It enables apps to obtain limited access (scopes) to a user's data without giving away a user's password. It decouples authentication from authorization and supports multiple use cases addressing different device capabilities. Swagger UI configured and ready to use as testing Interface with documentation support for API 
 
 ## How to start ?
 
@@ -13,9 +14,7 @@ $ java -jar -server -XX:+UseG1GC -Xmx7g -Xms5g -Dspring.profiles.active=local -D
 
 
 ## Swagger-UI
-* After starting the application Click on [Swagger-home](http://localhost:8080/api/swagger-ui.html)
-
-![Swagger-Home](/authentication/src/main/resources/images/Swagger-UI-Home.png "Swagger UI Home")
+* After starting the application Click on [Swagger-home](http://localhost:1977/api/swagger-ui.html)
 
 
 ## User Data
