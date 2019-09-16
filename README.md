@@ -6,6 +6,11 @@ Spring boot backend application which supports User Authentication OAuth2. OAuth
 ```
 $ mvn spring-boot:run
 ```
+As start up command
+```
+$ java -jar -server -XX:+UseG1GC -Xmx7g -Xms5g -Dspring.profiles.active=local -DNAME=OAUTH2-REST springboot-oauth2-res-1.0.0-SNAPSHOT.jar 2>> /dev/null >> /dev/null
+```
+
 
 ## Swagger-UI
 * After starting the application Click on [Swagger-home](http://localhost:8080/api/swagger-ui.html)
