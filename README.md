@@ -12,7 +12,9 @@ Linux start up
 ```
 $ java -jar -server -XX:+UseG1GC -Xmx7g -Xms5g -Dspring.profiles.active=local -DNAME=OAUTH2-REST springboot-oauth2-res-1.0.0-SNAPSHOT.jar 2>> /dev/null >> /dev/null
 ```
+```-Dspring.profiles.active=local``` : By using this system property it is possible to switch between application.properties and application-local.properties. Using the same file naming syntax possible to introduce several prop files
 
+```-DNAME=OAUTH2-REST``` : It makes easier to find your microservice among server processes, there can be many microservices and you can grep your process using the name you set.
 
 ## Swagger-UI
 * After starting the application Click on [Swagger-home](http://localhost:8080/api/swagger-ui.html)
@@ -21,10 +23,9 @@ $ java -jar -server -XX:+UseG1GC -Xmx7g -Xms5g -Dspring.profiles.active=local -D
 ## User Data
 
 ```
-   user-name         | password
-   user1@example.com | password
-   user2@example.com | password
-   user3@example.com | password
+   user-name | password
+   user1     | password
+   user2     | password
 ```
 
 
