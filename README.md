@@ -1,6 +1,6 @@
 # Spring Boot Rest API secured with Oauth2 scheme
 Spring boot backend application which supports User Authentication OAuth2. 
-OAuth is a delegated authorization framework for REST/APIs. It enables apps to obtain limited access (scopes) to a user's data without giving away a user's password. It decouples authentication from authorization and supports multiple use cases addressing different device capabilities. Swagger UI configured and ready to use as testing Interface with documentation support for API 
+OAuth as authorization framework for REST/APIs enables application to obtain limited access data without giving away a user's password. Framework decouples authentication from authorization and supports multiple use cases. Swagger UI was also configured for requesting tokens from embedded auth server, it also inserts token to API calls and can be utilized as ready to use testing Interface with documentation support.
 
 ## How to start ?
 
