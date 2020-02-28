@@ -81,6 +81,7 @@ config.oauth2.resourceURI= http://localhost:8080/api/oauth/authorize
 
 Required keytool commands to convert keystore format to pkcs12
 ```
+sudo certbot --apache -d oriontec.de -d www.oriontec.de
 keytool -import -alias tomcat -file /etc/letsencrypt/live/oriontec.de/cert.pem -keystore keystore.p12 -storepass password
 keytool -importkeystore -srckeystore keystore.p12 -destkeystore keystore.p12 -deststoretype pkcs12
 openssl pkcs12 -export -in fullchain.pem -inkey privkey.pem -out /opt/postmail/classes/keystore.p12 -name tomcat -CAfile chain.pem -caname root
